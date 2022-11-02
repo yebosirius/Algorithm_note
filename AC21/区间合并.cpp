@@ -1,3 +1,5 @@
+原题数据范围极大,但是数据量相对较小.所以先用一个向量存储数据范围,然后对数据范围看做小向量,求其前缀和
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
